@@ -31,7 +31,7 @@ To check a production build, run `npm run build` and then `npm run start`.
 
 ## Results demo
 
-- The page shows the banner "Demo only. Fictional student and results." and the line "Schools use the NeduHub Result Portal", which links to https://neduhub.vercel.app/portal in a new tab.
+- The page shows the banner "Demo only. Fictional student and results." and the line "Schools use the NeduHub Result Portal", which links to https://www.neduhub.com/portal in a new tab.
 - Students enter a 12-character PIN (capital letters and numbers, never O, 0, I or 1). The demo PIN `CRSTDEMQ7X4K` is shown on the page. Any other input shows "That PIN is not valid" and gives no hints. Results are never looked up by name or admission number.
 - Session (2026/2027) and term (First Term) are chosen from dropdowns.
 - The report card shows the school header and crest, student details, number in class, and a subject table with C.A (40), Exam (60), Total (100), Lowest, Highest, Class Average, Grade, Remark and Subject Position. Below that are totals, the overall average, class position, affective and psychomotor ratings (5 to 1), the grade key, the form teacher's and principal's remarks, and the date next term begins.
@@ -99,4 +99,4 @@ Checked on 24 October 2026:
 - Results demo tested: empty, wrong, too short, too long and look-alike-character PINs all show "That PIN is not valid". The demo PIN works, including in lowercase or with spaces. The report card values match an independent calculation from the raw scores (total 982/1200, average 81.8%, 3rd of 28). "Check another PIN" returns to an empty form.
 - Print was tested with Chrome's print-to-PDF. The report card fits on one A4 page, and the header, footer, banner and buttons are hidden.
 - The mobile menu opens and closes (including with the Escape key) and closes after navigating.
-- The footer on every page reads "Concept Project by NeduHub" and links to https://neduhub.vercel.app. The About page has a "Concept Project" section.
+- The footer on every page reads "Concept Project by NeduHub" and links to https://www.neduhub.com. The About page has a "Concept Project" section.
